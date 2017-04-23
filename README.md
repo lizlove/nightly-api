@@ -40,7 +40,7 @@ An array of objects, one for each question. `copy` refers to the text of the que
     ]
 
 ### Review Object
-
+[
   {
     date: Number (unix),
     isDraft: Boolean,
@@ -58,6 +58,7 @@ An array of objects, one for each question. `copy` refers to the text of the que
       }
     ]
   }
+ ]
 
 ### User Object
 _TBD: secure password formatting_
