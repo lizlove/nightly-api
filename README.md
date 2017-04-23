@@ -32,17 +32,16 @@ The original Nightly app was a built in Ruby on Rails. An archival version can b
 
 ### Question Data
 An array of objects, one for each question. `copy` refers to the text of the question. `format` refers to the html element type of the related input [ex: checkbox, text, email, et al ]
-  ```
+
     [
       { copy: String
         format: String (textarea, radio button, etc)},
       { copy: String
         format: String (textarea, radio button, etc)},
-    ]```
+    ]
 
 ### Review Object
 
-```{
   {
     date: Number (unix),
     isDraft: Boolean,
@@ -59,11 +58,10 @@ An array of objects, one for each question. `copy` refers to the text of the que
         answer: String
       }
     ]
-  }```
+  }
 
 ### User Object
 _TBD: secure password formatting_
-```{
   {
     name: String,
     email: String,
@@ -76,7 +74,6 @@ _TBD: secure password formatting_
       answer: String,
       isVerified: Boolean
     }
-  }```
 
 ### Routes - Web
 _TBD: Should users be routed to /reviews if they have the cookie?_
