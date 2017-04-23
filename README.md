@@ -40,7 +40,7 @@ An array of objects, one for each question. `copy` refers to the text of the que
     ]
 
 ### Review Object
-[
+
   {
     date: Number (unix),
     isDraft: Boolean,
@@ -49,19 +49,17 @@ An array of objects, one for each question. `copy` refers to the text of the que
     isHidden: Boolean,
     content: [
       {
-        question: String
+        question: String,
         answer: String
       },
-      {
-        question: String
-        answer: String
-      }
-    ]
+      {question: String,
+        answer: String}
+   ]
   }
- ]
 
 ### User Object
 _TBD: secure password formatting_
+  
   {
     name: String,
     email: String,
