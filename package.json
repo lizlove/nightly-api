@@ -1,15 +1,14 @@
 {
-  "name": "Nightly-Review-API",
-  "version": "1.0.0",
-  "description": "Nightly Review API",
+  "name": "nightly-api",
+  "description": "Nightly Review Application",
+  "version": "0.0.1",
+  "private": false,
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
   "dependencies": {
-    "body-parser": "^1.13.3",
-    "express": "^4.13.3",
-    "mongodb": "^2.1.6"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0"
   }
 }
