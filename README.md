@@ -29,7 +29,6 @@ The original Nightly app was a built in Ruby on Rails. An archival version can b
 
 ## Data Objects
 
-
 ### Question Data
 An array of objects, one for each question. `copy` refers to the text of the question. `format` refers to the html element type of the related input [ex: checkbox, text, email, et al ]
   ```
@@ -38,7 +37,8 @@ An array of objects, one for each question. `copy` refers to the text of the que
         format: String (textarea, radio button, etc)},
       { copy: String
         format: String (textarea, radio button, etc)},
-    ]```
+    ]
+    ```
 
 ### Review Object
 
