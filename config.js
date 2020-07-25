@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
-const url =
-  "mongodb+srv://admin:nightly@nightlyapi.22ja7.mongodb.net/nightly?retryWrites=true&w=majority";
+const url = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}`;
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.once("open", () =>
